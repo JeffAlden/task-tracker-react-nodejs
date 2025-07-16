@@ -1,3 +1,5 @@
+# Updated .gitignore for Task Tracker Project
+
 # Dependencies
 node_modules/
 */node_modules/
@@ -87,7 +89,7 @@ dist
 
 # Gatsby files
 .cache/
-public
+# public  (commented out - we need frontend/public/ for React)
 
 # Storybook build outputs
 .out
